@@ -1,0 +1,20 @@
+# codex-system 初始化记录
+
+初始化时间：$(date)
+项目根目录：$CODEX_SYSTEM
+
+## 已创建的内容
+- [x] 完整目录结构（rules、projects、templates、inbox、archive）
+- [x] 规则文件骨架（4 层规则）
+- [x] 两个项目模板（consulting、content）
+- [x] 核心文档模板（PROJECT.md、TASKS.md、DECISIONS.md）
+- [x] 从下载文件夹导入规则文件
+
+## 后续步骤
+1. 编辑 rules/ 下的规则文件，补充组织特定内容
+2. 初始化 Git 仓库：`cd $CODEX_SYSTEM && git init`
+3. 配置远程仓库（GitHub 私有仓库）
+4. 在两台 Mac 的 ~/.claude/CLAUDE.md 和 ~/.codex/AGENTS.md 中添加指向规则的引导语
+5. 建立第一个真实项目用于试运行
+
+详见《规划设计方案 v1.2》第 8 章。
